@@ -20,5 +20,5 @@ This Project is built on Python3.10.0
 
 1. Clone the repository:
    ```bash
-   git clone <https://github.com/yashraj9922/echo.ai.git>
+   git clone https://github.com/yashraj9922/echo.ai.git
    cd echo.ai
