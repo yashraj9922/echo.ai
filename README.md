@@ -7,6 +7,7 @@ This Project is built on Python3.10.0
 ## Features
 - Upload FLAC files.
 - Record audio on-the-spot.
+- Prediction (spoof or bonafide)
 - Visualizations: Waveform, MFCC, and Spectrogram.
 
 ## Models
