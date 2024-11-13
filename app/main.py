@@ -1,7 +1,7 @@
 import streamlit as st
 import librosa
 import numpy as np
-import tensorflow as tf
+# import tensorflow as tf
 from tensorflow.keras.models import load_model
 import sounddevice as sd
 import matplotlib.pyplot as plt
@@ -10,7 +10,7 @@ import soundfile as sf
 import librosa.display
 
 # Set Streamlit to dark theme
-st.set_page_config(page_title="EcHo.ai", page_icon=":microphone:", layout="wide", initial_sidebar_state="collapsed")
+st.set_page_config(page_title="echo.ai", page_icon=":microphone:", layout="wide", initial_sidebar_state="collapsed")
 
 # Load the pre-trained model
 model_path = "models/cnn_audio.h5"  # Change this path if needed
@@ -48,7 +48,7 @@ def record_audio(duration=5, sr=22050):
     return recording.flatten(), sr
 
 # Streamlit UI
-st.title("EcHo.ai")
+st.title("echo.ai")
 st.write("Upload a FLAC audio file, or record your voice for prediction.")
 
 # Initialize audio as None (for safety, in case no file is uploaded or recorded)
