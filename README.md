@@ -5,7 +5,7 @@ This project detects whether an audio file is spoofed or bonafide using three fi
 This Project is built on Python3.10.0
 
 ## Features
-- Upload MP3 files (auto-converted to FLAC).
+- Upload FLAC files.
 - Record audio on-the-spot.
 - Visualizations: Waveform, MFCC, and Spectrogram.
 
@@ -15,9 +15,10 @@ This Project is built on Python3.10.0
 - HuBERT.pt
 - wavLM.pt
 
+
 ## Setup
 
 1. Clone the repository:
    ```bash
-   git clone <repo_url>
+   git clone [<repo_url>](https://github.com/yashraj9922/echo.ai.git)
    cd echo.ai
