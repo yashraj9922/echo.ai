@@ -13,7 +13,7 @@ import librosa.display
 st.set_page_config(page_title="echo.ai", page_icon=":microphone:", layout="wide", initial_sidebar_state="collapsed")
 
 # Load the pre-trained model
-model_path = "models/cnn_audio.h5"  # Change this path if needed
+model_path = "models/model.h5"  # Change this path if needed
 model = load_model(model_path)
 
 # Genre mapping
