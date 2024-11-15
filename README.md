@@ -3,6 +3,11 @@
 ## Description
 This project detects whether an audio file is spoofed or bonafide using fine-tuned model based on CNN.
 
+## Team Members
+- Yashraj Kadam (22bds066)
+- Ayush Singh (22bds012)
+- Nachiket Apte (22bds041)
+- Harsh Raj (22bds027)
 
 ## Features
 - Upload FLAC files.
@@ -27,4 +32,4 @@ This Project is built on Python3.10.0
 2. Set up Python Environment
 3. ```bash
    pip install requirements.txt
-   streamlit run main.py
+   streamlit run app/main.py
